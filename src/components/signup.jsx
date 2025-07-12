@@ -55,22 +55,6 @@ class SignUp extends Form {
 
                   {this.renderInput("password", "Password", "password")}
 
-                  <div className="d-flex justify-content-between align-items-center mb-4">
-                    <div className="form-check">
-                      <input
-                        type="checkbox"
-                        className="form-check-input"
-                        id="remember"
-                      />
-                      <label className="form-check-label" htmlFor="remember">
-                        Remember me
-                      </label>
-                    </div>
-                    <a href="#!" className="text-decoration-none">
-                      Forgot password?
-                    </a>
-                  </div>
-
                   {this.renderButton("Sign up")}
                 </form>
 
